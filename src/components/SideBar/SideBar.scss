@@ -1,0 +1,45 @@
+.sideBar {
+  &__wrapper {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    z-index: 15;
+    display: flex;
+    color: var(--color-text);
+    width: 350px;
+    height: 200px;
+    transform: translateX(-350px);
+    transition: transform 0.5s ease-in-out;
+    padding: 20px;
+    background-color: rgb(148, 210, 245);
+
+    &:hover {
+        transform: translateX(0);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .ant-list-item {
+        justify-content:flex-start !important;
+    }
+
+    .info {
+      font-size: 1.2em;
+      margin-left: 10px;
+
+      &--icon {
+        font-size: 1.5em;
+      }
+    }
+
+    .sideImage {
+        transform: rotateY(180deg) translateX(-28px);
+    }
+  }
+}
