@@ -1,7 +1,7 @@
 {
     "intro": {
         "fullScreen": {
-            "enable": true,
+            "enable": false,
             "zIndex": 0
         },
         "background": {
@@ -9,7 +9,7 @@
                 "value": "transparent"
             }
         },
-        "fpsLimit": 120,
+        "fpsLimit": 60,
         "interactivity": {
             "events": {
                 "onClick": {

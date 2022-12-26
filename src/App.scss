@@ -1,0 +1,7 @@
+.App {
+    &__layout {
+        position: relative;
+        display: flex;
+        transition: transform 2s ease-in-out;
+    }
+}
